@@ -6,11 +6,11 @@
 #
 include $(TOPDIR)/rules.mk
 
-ARCH:=i386
-BOARD:=x86
-BOARDNAME:=x86
-FEATURES:=squashfs ext4 vdi vmdk pcmcia targz
-SUBTARGETS=generic olpc xen_domu net5501 kvm_guest alix2 thincan
+ARCH:=x86_64
+BOARD:=x86_64
+BOARDNAME:=x86_64
+FEATURES:=ext4 vdi vmdk pcmcia targz
+SUBTARGETS=generic xen_domu kvm_guest
 
 LINUX_VERSION:=3.10.49
 
