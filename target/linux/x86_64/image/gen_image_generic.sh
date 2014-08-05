@@ -29,7 +29,7 @@ ROOTFSSIZE="$(($4 / 512))"
 
 BLOCKS="$((($KERNELSIZE / 2) - 1))"
 
-[ -n "$PADDING" ] && dd if=/dev/zero of="$OUTPUT" bs=512 seek="$ROOTFSOFFSET" conv=notrunc count="$ROOTFSSIZE"
+[ -n "$PADDING" ] && dd if=/dev/zero of="$OUTPUT" bs=4096 seek="$ROOTFSOFFSET" conv=notrunc count="$ROOTFSSIZE"
 dd if="$ROOTFSIMAGE" of="$OUTPUT" bs=512 seek="$ROOTFSOFFSET" conv=notrunc
 
 [ -n "$NOGRUB" ] && exit 0
