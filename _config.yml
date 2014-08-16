@@ -3,7 +3,7 @@ markdown:         redcarpet
 highlighter:      rouge
 
 # Permalinks
-permalink:        pretty
+permalink:        '/:title'
 
 # Setup
 title:            'OpenWRT x86_64'

@@ -3,28 +3,29 @@ layout: page
 title: About
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+This build of OpenWRT is configured to support x86\_64 systems with more
+resources than the standard targets.  It fully supports multiple processors, and
+all available system memory.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+The image is built to fit on a 4GB storage device with room for an optional swap
+partition.
 
-There are currently two themes built on Poole:
+Binary packages have not been built for the full package tree, with only those
+packages related to routing, or configurable via LuCI, available from the
+repository.
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+Users may build additional packages using the ImageBuilder/SDK, however iIt is
+suggested instead for users to install the `lxc*` packages and then run their
+preferred Linux distribution in a container for full software coverage.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+With that said, if you feel that there is a package that should be available in
+the base image (many more net drivers should be, for example), feel free to
+[submit an issue]({{ site.github.repo }}/issues) to have it added.
 
-## Setup
+## Maintenance
+I don't expect to rigorously maintain this build, I just don't have the
+available bandwidth.  If feasible, I may look at producing automated builds, but
+that will require additional work, so probably don't expect it in the near
+future.
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+If you would like to help out, please do drop me a line on [Github]({{ site.github.repo }}).
