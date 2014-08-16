@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      rouge
+markdown:         kramdown
+highlighter:      pygments
 
 # Permalinks
 permalink:        '/:title'
