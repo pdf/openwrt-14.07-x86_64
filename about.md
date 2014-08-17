@@ -14,7 +14,7 @@ Binary packages have not been built for the full package tree, with only those
 packages related to routing, or configurable via LuCI, available from the
 repository.
 
-Users may build additional packages using the ImageBuilder/SDK, however iIt is
+Users may build additional packages using the ImageBuilder/SDK, however it is
 suggested instead for users to install the `lxc*` packages and then run their
 preferred Linux distribution in a container for full software coverage.
 
