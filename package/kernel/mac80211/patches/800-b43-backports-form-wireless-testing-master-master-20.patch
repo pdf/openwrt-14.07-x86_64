@@ -1,4 +1,4 @@
-BACKPort b43 patches from wireless testing
+backport b43 patches from wireless testing
 
 This brings b43 up to wireless-testing/master master-2014-07-29-1
 
@@ -375,7 +375,7 @@ This brings b43 up to wireless-testing/master master-2014-07-29-1
  	err = b43_do_request_fw(ctx, filename, &fw->initvals_band, false);
  	if (err)
  		goto err_load;
-@@ -2915,6 +2980,45 @@ void b43_mac_phy_clock_set(struct b43_wl
+@@ -2915,6 +2980,46 @@ void b43_mac_phy_clock_set(struct b43_wl
  	}
  }
  
@@ -384,7 +384,8 @@ This brings b43 up to wireless-testing/master master-2014-07-29-1
 +{
 +	u16 chip_id = dev->dev->chip_id;
 +
-+	if (chip_id == BCMA_CHIP_ID_BCM43217 ||
++	if (chip_id == BCMA_CHIP_ID_BCM43131 ||
++	    chip_id == BCMA_CHIP_ID_BCM43217 ||
 +	    chip_id == BCMA_CHIP_ID_BCM43222 ||
 +	    chip_id == BCMA_CHIP_ID_BCM43224 ||
 +	    chip_id == BCMA_CHIP_ID_BCM43225 ||
