@@ -251,7 +251,7 @@ hostapd_set_bss_options() {
 			}
 
 			append bss_conf "nas_identifier=$nasid" "$N"
-                        [ -n "$ownip" ] && append bss_conf "own_ip_addr=$ownip" "$N"
+			[ -n "$ownip" ] && append bss_conf "own_ip_addr=$ownip" "$N"
 			append bss_conf "eapol_key_index_workaround=1" "$N"
 			append bss_conf "ieee8021x=1" "$N"
 			append bss_conf "wpa_key_mgmt=WPA-EAP" "$N"
@@ -290,7 +290,6 @@ hostapd_set_bss_options() {
 		set_default wps_device_type "6-0050F204-1"
 		set_default wps_device_name "OpenWrt AP"
 		set_default wps_manufacturer "openwrt.org"
-		set_default wps_pin "12345670"
 
 		wps_state=2
 		[ -n "$wps_configured" ] && wps_state=1
@@ -298,7 +297,7 @@ hostapd_set_bss_options() {
 		[ "$ext_registrar" -gt 0 -a -n "$network_bridge" ] && append bss_conf "upnp_iface=$network_bridge" "$N"
 
 		append bss_conf "eap_server=1" "$N"
-		append bss_conf "ap_pin=$wps_pin" "$N"
+		[ -n "$wps_pin" ] && append bss_conf "ap_pin=$wps_pin" "$N"
 		append bss_conf "wps_state=$wps_state" "$N"
 		append bss_conf "ap_setup_locked=0" "$N"
 		append bss_conf "device_type=$wps_device_type" "$N"
@@ -310,7 +309,7 @@ hostapd_set_bss_options() {
 
 	append bss_conf "ssid=$ssid" "$N"
 	[ -n "$network_bridge" ] && append bss_conf "bridge=$network_bridge" "$N"
-	[ -n "$iapp_interface" ] &&  {
+	[ -n "$iapp_interface" ] && {
 		iapp_interface="$(uci_get_state network "$iapp_interface" ifname "$iapp_interface")"
 		[ -n "$iapp_interface" ] && append bss_conf "iapp_interface=$iapp_interface" "$N"
 	}
@@ -390,7 +389,7 @@ hostapd_set_log_options() {
 	set_default log_iapp   1
 	set_default log_mlme   1
 
-	local log_mask=$((       \
+	local log_mask=$(( \
 		($log_80211  << 0) | \
 		($log_8021x  << 1) | \
 		($log_radius << 2) | \
@@ -417,7 +416,7 @@ _wpa_supplicant_common() {
 
 wpa_supplicant_teardown_interface() {
 	_wpa_supplicant_common "$1"
-	rm -rf "$_rpath" "$_config"
+	rm -rf "$_rpath/$1" "$_config"
 }
 
 wpa_supplicant_prepare_interface() {
