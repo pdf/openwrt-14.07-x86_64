@@ -16,7 +16,7 @@ GRUB_SERIAL_CONFIG =
 GRUB_TERMINAL_CONFIG =
 GRUB_CONSOLE_CMDLINE =
 
-USE_ATKBD = generic kvm_guest
+USE_ATKBD = generic
 
 ifneq ($(strip $(foreach subtarget,$(USE_ATKBD),$(CONFIG_TARGET_x86_64_$(subtarget)))),)
   GRUB2_MODULES += at_keyboard
