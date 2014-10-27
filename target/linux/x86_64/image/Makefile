@@ -1,5 +1,5 @@
-# 
-# Copyright (C) 2006-2012 OpenWrt.org
+#
+# Copyright (C) 2006-2013 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -18,7 +18,7 @@ GRUB_CONSOLE_CMDLINE =
 
 USE_ATKBD = generic kvm_guest
 
-ifneq ($(strip $(foreach subtarget,$(USE_ATKBD),$(CONFIG_TARGET_x86_$(subtarget)))),)
+ifneq ($(strip $(foreach subtarget,$(USE_ATKBD),$(CONFIG_TARGET_x86_64_$(subtarget)))),)
   GRUB2_MODULES += at_keyboard
   GRUB2_MODULES_ISO += at_keyboard
 endif
@@ -40,7 +40,9 @@ ifneq ($(GRUB_TERMINALS),)
   GRUB_TERMINAL_CONFIG := terminal_input $(GRUB_TERMINALS); terminal_output $(GRUB_TERMINALS)
 endif
 
+SIGNATURE:=$(shell dd if=/dev/urandom bs=4 count=1 2>/dev/null | hexdump -v -e '"%02x"')
 ROOTPART:=$(call qstrip,$(CONFIG_TARGET_ROOTFS_PARTNAME))
+ROOTPART:=$(if $(ROOTPART),$(ROOTPART),PARTUUID=$(SIGNATURE)-02)
 
 GRUB_TIMEOUT:=$(call qstrip,$(CONFIG_GRUB_TIMEOUT))
 
@@ -82,11 +84,11 @@ ifneq ($(CONFIG_GRUB_IMAGES),)
 		-e 's#@CMDLINE@#$(strip $(call Image/cmdline/$(1)) $(BOOTOPTS) $(GRUB_CONSOLE_CMDLINE))#g' \
 		-e 's#@TIMEOUT@#$(GRUB_TIMEOUT)#g' \
 		./grub.cfg > $(KDIR)/root.grub/boot/grub/grub.cfg
-	PADDING="$(CONFIG_TARGET_IMAGES_PAD)" PATH="$(TARGET_PATH)" ./gen_image_generic.sh \
+	PADDING="$(CONFIG_TARGET_IMAGES_PAD)" SIGNATURE="$(SIGNATURE)" PATH="$(TARGET_PATH)" ./gen_image_generic.sh \
 		$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).img \
 		$(CONFIG_TARGET_KERNEL_PARTSIZE) $(KDIR)/root.grub \
 		$(CONFIG_TARGET_ROOTFS_PARTSIZE) $(KDIR)/root.$(1) \
-		1024
+		256
 	grub-bios-setup \
 		--device-map="$(KDIR)/grub2/device.map" \
 		-d "$(KDIR)/grub2" \
@@ -128,21 +130,31 @@ endef
 
 ifneq ($(CONFIG_VDI_IMAGES),)
   define Image/Build/vdi
-	rm $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vdi || true
-	qemu-img convert -f raw -O vdi \
-		$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).img \
-		$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vdi
-	# XXX: VBoxManage insists on setting perms to 0600
-	chmod 0644 $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vdi
+    # left here because the image builder doesnt need these
+    ifeq ($(1),ext4)
+		rm $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vdi || true
+		qemu-img convert -f raw -O vdi \
+			$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).img \
+			$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vdi
+		# XXX: VBoxManage insists on setting perms to 0600
+		chmod 0644 $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vdi
+    endif
   endef
 endif
 
 ifneq ($(CONFIG_VMDK_IMAGES),)
   define Image/Build/vmdk
-	rm $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vmdk || true
-	qemu-img convert -f raw -O vmdk \
-		$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).img \
-		$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vmdk
+    # left here because the image builder doesnt need these
+    ifeq ($(1),ext4)
+		rm $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vmdk || true
+		qemu-img convert -f raw -O vmdk -o adapter_type=lsilogic \
+			$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).img \
+			$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).vmdk
+		rm $(BIN_DIR)/$(IMG_PREFIX)-combined-$(1)-esxi.vmdk || true
+		qemu-img convert -f raw -O vmdk -o adapter_type=lsilogic,subformat=monolithicFlat \
+			$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1).img \
+			$(BIN_DIR)/$(IMG_PREFIX)-combined-$(1)-esxi.vmdk
+    endif
   endef
 endif
 
@@ -170,13 +182,6 @@ endif
 
 define Image/BuildKernel
 	$(CP) $(KDIR)/bzImage $(BIN_DIR)/$(IMG_PREFIX)-vmlinuz
-  ifneq ($(CONFIG_X86_ETHERBOOT_IMAGES),)
-	rm -f $(BIN_DIR)/$(IMG_PREFIX)-etherboot
-	$(STAGING_DIR_HOST)/bin/mkelfImage \
-		--append=$(CONFIG_X86_ETHERBOOT_BOOTOPTS) \
-		$(KDIR)/bzImage \
-		$(BIN_DIR)/$(IMG_PREFIX)-etherboot
-  endif
 endef
 
 define Image/Prepare
@@ -209,3 +214,7 @@ endif
 endef
 
 $(eval $(call BuildImage))
+
+$(eval $(call RequireCommand,qemu-img, \
+	Please install qemu-img (package qemu-utils in Ubuntu/Debian). \
+))
