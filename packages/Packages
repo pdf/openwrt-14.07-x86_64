@@ -6249,11 +6249,11 @@ Depends: libc, zlib, libncurses, libreadline, libopenldap, bzip2, libcurl
 Source: feeds/x86_64/utils/gnupg
 Section: utils
 Architecture: x86_64
-Installed-Size: 483428
+Installed-Size: 482962
 Filename: gnupg_1.4.16-1_x86_64.ipk
-Size: 482055
-MD5Sum: 30605bb600b9353c5e9c0a6b2baf75f9
-SHA256sum: d2e84b1c384003d6263cee1cc587853b8c71ba7c5120023bd6e2ee52b78cf6a3
+Size: 481567
+MD5Sum: 8449d14fa0aa2ff3875422d116ffa0cd
+SHA256sum: 9f1018b69d092a4c658fd56570566bc61378fd44038564054cba924d37c34576
 Description:  GnuPG is GNU's tool for secure communication and data storage.
  It can be used to encrypt data and to create digital signatures.
  It includes an advanced key management facility and is compliant
@@ -6641,11 +6641,11 @@ Source: package/network/utils/ipset
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 77586
+Installed-Size: 77520
 Filename: ipset_6.20.1-1_x86_64.ipk
-Size: 77756
-MD5Sum: aabd1ff19181622a2e672081a26c6f0f
-SHA256sum: 73138ee3c0a5327d67f3d9a9aaa181346d58ba7c252beb8675f1b1acd87c3653
+Size: 77691
+MD5Sum: d203e908c41ac3f2d545539a8d18aaf2
+SHA256sum: 7b60ade628abd1ff2b09b23a18bf67ec2d71a4a1e06f7307391ccdd0b804be0a
 Description:  IPset administration utility
 
 Package: iptables-mod-account
@@ -6658,8 +6658,8 @@ Architecture: x86_64
 Installed-Size: 2648
 Filename: iptables-mod-account_2.3-1_x86_64.ipk
 Size: 3249
-MD5Sum: b42c7e8296d36846bbc27cfe7a9f052b
-SHA256sum: 048e25c0f7b3f9db8d2d9d1a69ded661eb2fbdd245e41ea3aa2a94adb8412839
+MD5Sum: 15f64c086ceb8b78279377c680208828
+SHA256sum: ed7b0f0d8ad44a6fec4d56c69a8a538b27e222c36c00ec2e13eaff0b6dfcf704
 Description:  ACCOUNT iptables extension
 
 Package: iptables-mod-chaos
@@ -6671,9 +6671,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
 Installed-Size: 1975
 Filename: iptables-mod-chaos_2.3-1_x86_64.ipk
-Size: 2576
-MD5Sum: 9083720e19100e4c586e7c885b188454
-SHA256sum: def5ba865091e13bcd9456256b6d0d3d30b402921e69f5bbc8623bdf32ccb4c7
+Size: 2575
+MD5Sum: 29c8ab6c09f1c4a9bdbecf5e51cc9601
+SHA256sum: 2cac89cbbb8ac9354565e55b443d5bd33c007a1019ecc953b65dc422a142a88b
 Description:  CHAOS iptables extension
 
 Package: iptables-mod-condition
@@ -6683,11 +6683,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2178
+Installed-Size: 2181
 Filename: iptables-mod-condition_2.3-1_x86_64.ipk
-Size: 2792
-MD5Sum: 01829443351e3eb45f780d61d078f9bd
-SHA256sum: 6c5b7e8b7f881e8ef176438c0a97e78866c094eab1cec39f862d2e0f37c6795a
+Size: 2778
+MD5Sum: cce9178dfa2699e112de5c7394110c1d
+SHA256sum: 14ad7fade158ca8ca54f06743a20d10d0d0aad2ce200418e41e3a15e56857393
 Description:  Condition iptables extension
 
 Package: iptables-mod-conntrack-extra
@@ -6721,11 +6721,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1580
+Installed-Size: 1582
 Filename: iptables-mod-delude_2.3-1_x86_64.ipk
-Size: 2177
-MD5Sum: 4b300ea711ab39f65471f6495f1120a3
-SHA256sum: a9087d68c1d4d459f39ce11107faca7437630446856a0667602d4d6473293dea
+Size: 2175
+MD5Sum: c876ec81ae5e25363e23ececd1f6c466
+SHA256sum: 023316df12fd59aead335a0e06b046f156ca88f685c60dc289ca45b1ce7cfceb
 Description:  DELUDE iptables extension
 
 Package: iptables-mod-dhcpmac
@@ -6737,9 +6737,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
 Installed-Size: 2439
 Filename: iptables-mod-dhcpmac_2.3-1_x86_64.ipk
-Size: 3038
-MD5Sum: 2470bfcf3d0588e67a9ba94c13a45428
-SHA256sum: 0183734f35962a67b740ba8872d59281dc89b2f6b80b8c2d3984bb4a956799f8
+Size: 3043
+MD5Sum: 946bae3ce4f29ff92fee85046154e27f
+SHA256sum: 9f08d949013aba59b66a29a3aae6c5e1ccb16aef9d02b4326b0e6dd7931d4ebc
 Description:  DHCPMAC iptables extension
 
 Package: iptables-mod-dnetmap
@@ -6749,11 +6749,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3349
+Installed-Size: 3347
 Filename: iptables-mod-dnetmap_2.3-1_x86_64.ipk
-Size: 3918
-MD5Sum: bf902bd4f6eb5d5c3764734b134e4b00
-SHA256sum: acbc6c96f875f40a55c9aa1e547ebfe0a333db08279f89a1d95f530c73c842cf
+Size: 3915
+MD5Sum: 3a98ce7ccd74ebdaa7d886dc502a4f1f
+SHA256sum: f7d74031eac6a6836f0aad5d0bf09b35148d6051ee3e1ddd74d9f5244f995a33
 Description:  DNETMAP iptables extension
 
 Package: iptables-mod-extra
@@ -6806,9 +6806,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
 Installed-Size: 2233
 Filename: iptables-mod-fuzzy_2.3-1_x86_64.ipk
-Size: 2827
-MD5Sum: bfbb1a9865b9aecd2d0044afcf514195
-SHA256sum: aaddd00cc4952e5c6cb848d91151f65daf6939358f31355942c6e4c4285383c2
+Size: 2830
+MD5Sum: 4990678ef57c70084dbb274a0b7827e0
+SHA256sum: 4e8af5a3d526be3df397ec5a46b18c0c0fdcf0cc7ed2fe84617f342a1315a46e
 Description:  fuzzy iptables extension
 
 Package: iptables-mod-geoip
@@ -6820,9 +6820,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
 Installed-Size: 3942
 Filename: iptables-mod-geoip_2.3-1_x86_64.ipk
-Size: 4506
-MD5Sum: cd859b96f2306c3e4148bfcefc1444d1
-SHA256sum: aa3af2cf1a309bc31facb490dacbb7cd8ef846d158d622a8c03612df604b63a0
+Size: 4500
+MD5Sum: 1096dd3244d8b8d0e44135665440f659
+SHA256sum: 2a6995c7d6920b866dce63cc7fcf29f5f5515068a5e3f25538a91a82951e1c71
 Description:  geoip iptables extension
 
 Package: iptables-mod-hashlimit
@@ -6849,11 +6849,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3600
+Installed-Size: 3599
 Filename: iptables-mod-iface_2.3-1_x86_64.ipk
-Size: 4162
-MD5Sum: 7d4ce5f87246f636848577a06f5486e4
-SHA256sum: f30de4673a880d002c8cabe927860f68a4775eaa8ef8562701eddad0bf3fe406
+Size: 4156
+MD5Sum: c3e78124ffabe83af4c5b4f1dc625d12
+SHA256sum: 9534153aa9c0f0310e427de7e10571554500549eb03913b6b542b6398b7333a2
 Description:  iface iptables extension
 
 Package: iptables-mod-ipmark
@@ -6863,11 +6863,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2818
+Installed-Size: 2819
 Filename: iptables-mod-ipmark_2.3-1_x86_64.ipk
-Size: 3385
-MD5Sum: c201ea9e948d1b8613d336c7796ed5f6
-SHA256sum: 21c3036d1b6d3afa326b8c561a5e7c445a9e0cc0cb4ecd9ebe945b5212c51209
+Size: 3388
+MD5Sum: 64327190043f137de9cbaf9986ffdcdd
+SHA256sum: 54ece47b66f4edbc5e2c3ce5f1aaf36cf12e4f42b0b9bd76ed6516546d2b09e0
 Description:  IPMARK iptables extension
 
 Package: iptables-mod-ipopt
@@ -6908,9 +6908,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
 Installed-Size: 3328
 Filename: iptables-mod-ipp2p_2.3-1_x86_64.ipk
-Size: 3878
-MD5Sum: 4881419b85426a8fa5d48655c9343929
-SHA256sum: a6b395ea153493a8b0207cc4f00d3894cc0c91ae411b0658f3478a5b636bae8d
+Size: 3874
+MD5Sum: f3efa15bc624c35efc0eb956818ae7a7
+SHA256sum: f92883a3f080edcac46560915f3764b9d5b63560f866c97e713ef7581dd906cb
 Description:  IPP2P iptables extension
 
 Package: iptables-mod-iprange
@@ -6956,11 +6956,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2824
+Installed-Size: 2826
 Filename: iptables-mod-ipv4options_2.3-1_x86_64.ipk
-Size: 3387
-MD5Sum: 0a4f909e2f1372db00fe984e2657cebb
-SHA256sum: b6cf3291479dee0ed8b3f4b0bd25e69a973765dcd214dbe7da4cfc751d74ad26
+Size: 3393
+MD5Sum: d6f43281f873a25ae3b4cdf37bea751f
+SHA256sum: d8c68e8539a5f48d8bd5e69df4ad61e3598c10adccef89db8ba0d574fa294ee3
 Description:  ipv4options iptables extension
 
 Package: iptables-mod-led
@@ -6987,11 +6987,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2920
+Installed-Size: 2922
 Filename: iptables-mod-length2_2.3-1_x86_64.ipk
 Size: 3489
-MD5Sum: 200dc932de7fd4a45c0fbfba2cc0e615
-SHA256sum: f65d4934e1c0f92fff648afba8762eeeb67e962d60012f18f60b81ec020b29fe
+MD5Sum: 1b54bd71965f2a007f72e9f25eec8462
+SHA256sum: 07e3acd31f47129d6a68240303f40e1af395d02dfe5996571996e04619c556c6
 Description:  length2 iptables extension
 
 Package: iptables-mod-logmark
@@ -7001,11 +7001,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2481
+Installed-Size: 2482
 Filename: iptables-mod-logmark_2.3-1_x86_64.ipk
-Size: 3079
-MD5Sum: b26d2755030002f0f55556542a9ef4d6
-SHA256sum: 46f94247e46e8784cc49b8b7354e57c41677510695385bceb50c0a8bba15f3be
+Size: 3084
+MD5Sum: 571edd69071cbdfb589239dd1c40e981
+SHA256sum: f675f091feca9f922781fb1e6db8739aa20c412a0cf848e9cd0f3bc9f5d32329
 Description:  LOGMARK iptables extension
 
 Package: iptables-mod-lscan
@@ -7017,9 +7017,9 @@ Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
 Installed-Size: 2075
 Filename: iptables-mod-lscan_2.3-1_x86_64.ipk
-Size: 2674
-MD5Sum: 440cc833a4f378aa47b0219161317eb4
-SHA256sum: 137fa639337823b26e446168dbb2731a3663aa455321a68989fa6464ad4179c0
+Size: 2670
+MD5Sum: 77e396b70734c3d7b4f4e64cdab54d0c
+SHA256sum: bf52a7833170df37088c2579f9e927253ec88b2767857717d037b5e147d677d5
 Description:  lscan iptables extension
 
 Package: iptables-mod-lua
@@ -7029,11 +7029,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3006
+Installed-Size: 3010
 Filename: iptables-mod-lua_2.3-1_x86_64.ipk
-Size: 3567
-MD5Sum: 0a54f84286f0bb5a8dd373fd288d20f7
-SHA256sum: 5900d642ab7637dea7d8d2c44a2dd787c72bb4abb666b69568ba11b82d720748
+Size: 3572
+MD5Sum: 63c2f17f01584ab68afa51b638362c51
+SHA256sum: 494c108ea97e53263bb066b5113480fea108f31caea396df39d11fe3733b0109
 Description:  Lua PacketScript iptables extension
 
 Package: iptables-mod-nat-extra
@@ -7094,11 +7094,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2486
+Installed-Size: 2488
 Filename: iptables-mod-psd_2.3-1_x86_64.ipk
-Size: 3082
-MD5Sum: f68ea335b601732bfcb7ac32afad604f
-SHA256sum: 03c086a7dfb136a5c872f5f465d07e90ba80f35071d3b30c8a8bb48b61575325
+Size: 3079
+MD5Sum: 071149333beb272848e250db9a7bfedd
+SHA256sum: 2105a32d32599e4293c5c38eb64b828050a71806c0983d96a66cda913197412f
 Description:  psd iptables extension
 
 Package: iptables-mod-quota2
@@ -7108,11 +7108,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2587
+Installed-Size: 2584
 Filename: iptables-mod-quota2_2.3-1_x86_64.ipk
-Size: 3186
-MD5Sum: 2816a2184ac6b47e3e4c63e32bf570c4
-SHA256sum: c6565a80c693c54e7135379586cc75e2c65a670df158ae29fd242a58a004025c
+Size: 3189
+MD5Sum: 3a01c1952a1f504580b12d972fd8c94a
+SHA256sum: da5eedd410faf9e9ed2e7cba0dc9605b6914c9f724d4c83f288258f182605721
 Description:  quota2 iptables extension
 
 Package: iptables-mod-rawnat
@@ -7122,11 +7122,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3309
+Installed-Size: 3306
 Filename: iptables-mod-rawnat_2.3-1_x86_64.ipk
-Size: 3887
-MD5Sum: cce1b692d64b3f1aec54fdb4f0d9ef46
-SHA256sum: 49e409d963df1e121d4d9e51fce6b07f1e27504c982e628e3b8d0d3fa577b143
+Size: 3884
+MD5Sum: c74dc45ac3b83f75eede14e255cb497e
+SHA256sum: 395f21f3204fe7c1c531f7606bd3e260c452810413e2cc814ed01cec44d2cd38
 Description:  RAWNAT iptables extension
 
 Package: iptables-mod-steal
@@ -7136,11 +7136,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1582
+Installed-Size: 1581
 Filename: iptables-mod-steal_2.3-1_x86_64.ipk
-Size: 2174
-MD5Sum: 7dd79aca14ca65085da666b79fe54bdd
-SHA256sum: bb567d6f9e65b9dd191c72c081bc7cee3746c76f1283d1d325ae843cd798ba8c
+Size: 2170
+MD5Sum: 8ba31ac4170709548253e19b42aa50b2
+SHA256sum: bd8e3c0d0329fb0af9b7aab657be7a762ed7077e877b9b2e9d56e2b3f6d5e627
 Description:  STEAL iptables extension
 
 Package: iptables-mod-sysrq
@@ -7150,11 +7150,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1583
+Installed-Size: 1581
 Filename: iptables-mod-sysrq_2.3-1_x86_64.ipk
 Size: 2176
-MD5Sum: 8664a2d2e5fa63e28233ad09954882e3
-SHA256sum: 7918cf021507d59d942b80acdbc0e35603d627815bc1a7055407c75b1dfa8c69
+MD5Sum: 100d54d989f63dd60555643655446cd8
+SHA256sum: c729ea6b1d5a01d0a7ab6d89bb6fe80474511d88ba0a6390834077daa4d5a4d0
 Description:  SYSRQ iptables extension
 
 Package: iptables-mod-tarpit
@@ -7164,11 +7164,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2044
+Installed-Size: 2045
 Filename: iptables-mod-tarpit_2.3-1_x86_64.ipk
-Size: 2648
-MD5Sum: 702493bba9ff574c4353c253c41973b7
-SHA256sum: 006e62836abbe45233e949286420be61dd4b1e9a8602ad310d3ed25aaa444957
+Size: 2647
+MD5Sum: f36e73145900ff31313a3a191a4adfc7
+SHA256sum: 05f2b425b5f7a20c26ea437a297479243e0900732ea8c6e35cb9a0b78921c3b6
 Description:  TARPIT iptables extension
 
 Package: iptables-mod-tee
@@ -7297,11 +7297,11 @@ Source: package/network/utils/xtables-addons
 Section: net
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 5851
+Installed-Size: 5835
 Filename: iptaccount_2.3-1_x86_64.ipk
-Size: 6416
-MD5Sum: e425b3481b888eba9dc7c4bae6d0ef43
-SHA256sum: 86aa7cc1590fd50faa644f6cca3e22db56ceaa91744a20f5bdbfd419c87799fd
+Size: 6413
+MD5Sum: 0dda30f539f9e6bd99be0c17ee96a7fe
+SHA256sum: d971b288c81845e2bfd4882e8580377fa6e3b32b1415496d67baf434877c36a3
 Description:  iptables-mod-account control utility
 
 Package: iptraf
@@ -7817,11 +7817,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 239629
+Installed-Size: 239628
 Filename: kmod-ath10k_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 240261
-MD5Sum: ed929ed8945b58cf5179129bab8c591a
-SHA256sum: e3fadfca9b19aff611a3c4a4352e1ac4ce58d9ae1ea035828f0a3a3d259d71c4
+Size: 240268
+MD5Sum: 79964ed357aab94caac366c1fe18c0d4
+SHA256sum: 04fd609f1cdb6c1ea6a37d97af6ee23028d5459d4f60994654eefb4662062e9f
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
@@ -7833,11 +7833,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 75191
+Installed-Size: 75189
 Filename: kmod-ath5k_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 75595
-MD5Sum: 4a45243b7b28b14863929bf6c4874f29
-SHA256sum: 56791e97bee1b7ae0ff10329a714109ebffa501f3c9050c03635fff55fb51ab1
+Size: 75591
+MD5Sum: bf0596be0de631aeb22cae84da02eb9b
+SHA256sum: bbe5929cdebba5e8b9fe08e3a333b21a58c5e068cf5865122e75809b46e8ee46
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
@@ -7848,11 +7848,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 118424
+Installed-Size: 118033
 Filename: kmod-ath9k-common_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 116564
-MD5Sum: 405907c82dda127d8c83b963f8f6a487
-SHA256sum: 74bddfda57c0f1798524e75efbe4b38b65f51eecbac5a0e62275d2613d9026a4
+Size: 116130
+MD5Sum: 6e78fc9ea2e39097412689addcf5019c
+SHA256sum: bec4b6d1849b00eff2b344eb1b179915567d5d9acf52b3309c682a490ac2e5b9
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
@@ -7862,11 +7862,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 93670
+Installed-Size: 93194
 Filename: kmod-ath9k-htc_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 94225
-MD5Sum: e8ad25a3f0d442e30f2f96afa788d149
-SHA256sum: 9e74462d009a50e7566279d7b87e2cbcaa54145996211243237a74b1e2a0ab4f
+Size: 93527
+MD5Sum: 5014c0a25960c75e3351158670a5a5bf
+SHA256sum: f27e9ed446c2bb457e9a5c40216bb378caf861bf27a56cc01b4d1177b2758a8b
 Description:  This module adds support for wireless adapters based on
  Atheros USB AR9271 and AR7010 family of chipsets.
 
@@ -7877,11 +7877,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 52821
+Installed-Size: 52818
 Filename: kmod-ath9k_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 53284
-MD5Sum: a719d0a1abae3dcbec1fe5a7335fdb7c
-SHA256sum: 29a28f2e4e428db65ce2f23279703d3ea9ce1d87c2972165413c278746dad761
+Size: 53290
+MD5Sum: 9f29f140eea8d94fb4e48deea97ff343
+SHA256sum: 14ea8ad5f588d71bd0de770c4dd04c26586a13d122b7a53d2e86d13eb4504349
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -7892,11 +7892,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 11299
+Installed-Size: 11300
 Filename: kmod-ath_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 11953
-MD5Sum: c0e66cbcfdef7c686f2f327156f51fba
-SHA256sum: 1824e4b59efa479c9fb4ace67e5c0d71ec26d15cadac76dd55252d072a6c4f7f
+Size: 11942
+MD5Sum: 6f73db5e9c6839b68dda3f08cd3b4fe2
+SHA256sum: 09c165f66d1c618988834515c3fee815fb8cc881db7a47bebc46b026b1f6d3fa
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atm
@@ -7921,11 +7921,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 269050
+Installed-Size: 269726
 Filename: kmod-b43_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 265409
-MD5Sum: 80bcf9d5f0d8aed1d9e46201cad36f56
-SHA256sum: 4dbf565011aaa04852423d218513b699725f48b2502e13af71a8cf3bdcb451fa
+Size: 265947
+MD5Sum: eca5a3e8ae5cf472a75933fc9c0d2eae
+SHA256sum: a9cd1bd635b4743e1d570b7c670cb24172910fd43e7f971cb548fea25b9ab12a
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b43legacy
@@ -7935,11 +7935,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 65500
+Installed-Size: 65657
 Filename: kmod-b43legacy_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 66151
-MD5Sum: 8bbd8d8f5bcc8502c01887ac9e3c8f73
-SHA256sum: 67bf848a84ece01c81e30ff2ff0263808cd0116537ed015005c2efb13feba017
+Size: 66153
+MD5Sum: 80c7c92bcb654254c79ed779e9790c45
+SHA256sum: 70997acbcd5625410ddb8e839077c22ed306a3d664430ec4fea7c944b772b2f6
 Description:  Kernel module for Broadcom 43xx-legacy wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -8024,11 +8024,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 113962
+Installed-Size: 113934
 Filename: kmod-cfg80211_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 114490
-MD5Sum: 83739856925385c8034d2ee9094a24d9
-SHA256sum: fbba7ee2db9fabe06c4c2da7f214b36959a8c48f4346be94c59607d316cdfe63
+Size: 114454
+MD5Sum: 09f8d4bb7177454b3b33d85a4d538e0f
+SHA256sum: 9a9480f749300314dc1ff929735907da98e7f94c11729a4c84078ee103e5cc88
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-crypto-aes
@@ -8548,11 +8548,11 @@ Source: feeds/packages/utils/cryptodev-linux
 Section: kernel
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: x86_64
-Installed-Size: 16825
+Installed-Size: 16900
 Filename: kmod-cryptodev_3.10.49+1.6-x86_64-1_x86_64.ipk
-Size: 17630
-MD5Sum: c71a40e25c9c4f195278a1edfac33d83
-SHA256sum: 3fa298474b0c26fb3d0b4b0baf8b01e94ef21d2fef99cdc00fa41b5912a9fb8d
+Size: 17712
+MD5Sum: 7e3c3f4b0b51391fb21602c6a9ea1e81
+SHA256sum: 35d8df34ef9e2c589faceb457be15464280b17aefb273c86b522a24066d20bf3
 Description:  This is a driver for that allows to use the Linux kernel supported
  hardware ciphers by user-space applications.
 
@@ -9702,11 +9702,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 6325
+Installed-Size: 6315
 Filename: kmod-ipt-account_3.10.49+2.3-1_x86_64.ipk
-Size: 6947
-MD5Sum: 78b1bf54501eb30ecacc6281ec30ac32
-SHA256sum: c878c6352eda1d18c5fd359ac29ec081f55793cce4ae0717ebd7fe5eb48bf6ad
+Size: 6933
+MD5Sum: c36139054e1bbf4aa3a50bb38faf99eb
+SHA256sum: 6558fbf5db15ddbc08362d1844c7df28a8bd970d11b39fbf2412e54b0dee23d2
 Description:  ACCOUNT netfilter module
 
 Package: kmod-ipt-chaos
@@ -9716,11 +9716,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2104
+Installed-Size: 2115
 Filename: kmod-ipt-chaos_3.10.49+2.3-1_x86_64.ipk
-Size: 2734
-MD5Sum: 9fe6b638192930aad2c9b42aff1dc6ec
-SHA256sum: 71d2594da21b8294585c89f08cf2bd940e3b046627f18b0d7cfbb36317b7ee3b
+Size: 2746
+MD5Sum: d830102191b67ea85c4138e5f746b2a3
+SHA256sum: 23f01ec4833a91d34797de553a821f1ee03866548791bb8cf8039e97d69d52cd
 Description:  CHAOS netfilter module
 
 Package: kmod-ipt-compat-xtables
@@ -9730,11 +9730,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1728
+Installed-Size: 1724
 Filename: kmod-ipt-compat-xtables_3.10.49+2.3-1_x86_64.ipk
-Size: 2348
-MD5Sum: a65f7f65fd7d7e1d685d6be146be47d5
-SHA256sum: 37a719a6a1c41cc5f6e3fd9522a1855608ec0d55bfaff34c2a9fc47ba6b68215
+Size: 2339
+MD5Sum: 57d3893bab9e696dc16f037efdd7d13f
+SHA256sum: 4940bbc3660143416861be061320e45fbc2fb08aa2914a3e6af3125b9ed0c3f7
 Description:  API compatibilty layer netfilter module
 
 Package: kmod-ipt-condition
@@ -9744,11 +9744,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2372
+Installed-Size: 2379
 Filename: kmod-ipt-condition_3.10.49+2.3-1_x86_64.ipk
-Size: 2992
-MD5Sum: 3f6cca1d8d034467611eda4c501ab62d
-SHA256sum: e169760a2898ff9587e4d4254f4c60fa5cdb9008dec27ff15c389ce1f6dc3a8a
+Size: 2991
+MD5Sum: f4b24d1c5276e254dee65550bf80a669
+SHA256sum: 9d828e6ccb4efadbf9b3c62c7531455616ecd0fb71d32c2cde636b1d17a41c41
 Description:  Condition netfilter module
 
 Package: kmod-ipt-conntrack-extra
@@ -9840,11 +9840,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1895
+Installed-Size: 1894
 Filename: kmod-ipt-delude_3.10.49+2.3-1_x86_64.ipk
 Size: 2508
-MD5Sum: 0ade9b4a2fc12c94fe0651cd00791e83
-SHA256sum: 1ce6e716a8085f0000840e2632e85f3840241421b260fa44c9f536c2e38c8eca
+MD5Sum: 306c20e4fcdef5979f4fad7d3768ba59
+SHA256sum: 629da7502551565113096ba5f6b152b409e170d9ec6d3fc67f840b426a586e02
 Description:  DELUDE netfilter module
 
 Package: kmod-ipt-dhcpmac
@@ -9854,11 +9854,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1588
+Installed-Size: 1593
 Filename: kmod-ipt-dhcpmac_3.10.49+2.3-1_x86_64.ipk
-Size: 2238
-MD5Sum: 13bfe489bbfa3bc7405706967b20de32
-SHA256sum: 821f774b020cb62298b868f84db3761f7dd556e7afd5116c07b62ac0eab42753
+Size: 2248
+MD5Sum: b26f6e91c3b886633323e860fd3b1e9a
+SHA256sum: 04089a94cf9ad771f65d3acd7c28a142a16130b419bd6d093464dd0b7c138bd8
 Description:  DHCPMAC netfilter module
 
 Package: kmod-ipt-dnetmap
@@ -9868,11 +9868,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 6741
+Installed-Size: 6745
 Filename: kmod-ipt-dnetmap_3.10.49+2.3-1_x86_64.ipk
-Size: 7419
-MD5Sum: 2c9a51c5a8bcc5a9dde2048f0618987c
-SHA256sum: d03a7b0bf48056457df5eb5560a5faeb51516edde317bd0f5fcc26fbbd344d78
+Size: 7420
+MD5Sum: 06f385dfe5b80c6231f8f31a3f86c125
+SHA256sum: 0e4908f23eef23525427f01d305ce4b8c8367dbdab8e9082531df782f19bfa29
 Description:  DNETMAP netfilter module
 
 Package: kmod-ipt-extra
@@ -9921,11 +9921,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1302
+Installed-Size: 1298
 Filename: kmod-ipt-fuzzy_3.10.49+2.3-1_x86_64.ipk
-Size: 1948
-MD5Sum: 93d7727eabf190a15e138349e0301d8a
-SHA256sum: eba662def53076d969282688438bc16db5e8d73c74d8f6609020359a7361bc0c
+Size: 1941
+MD5Sum: d3f6da1c0298b47552cd52248c187f70
+SHA256sum: b6a077ae6fe17fd023117e9f8ac23a9006a7a667dbc8d2f442a27cb2c091b57d
 Description:  fuzzy netfilter module
 
 Package: kmod-ipt-geoip
@@ -9935,11 +9935,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2607
+Installed-Size: 2601
 Filename: kmod-ipt-geoip_3.10.49+2.3-1_x86_64.ipk
-Size: 3218
-MD5Sum: 0a5af8c5cf8ae70a0c8c92fcf4b57447
-SHA256sum: 6c9c211ce7adfd136328fc332ae83c1ea1da23c58909c8985919a1c4cb17afb1
+Size: 3214
+MD5Sum: 01805d65a6547995323491af0e0fbe78
+SHA256sum: bb655eeba0b452a3b483ea851a88c9570eea081671d72fbd472a0b7886e8a57a
 Description:  geoip netfilter module
 
 Package: kmod-ipt-hashlimit
@@ -9964,11 +9964,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1119
+Installed-Size: 1125
 Filename: kmod-ipt-iface_3.10.49+2.3-1_x86_64.ipk
-Size: 1755
-MD5Sum: efd133576e2ce777f88e0894ee574fc4
-SHA256sum: a05507131b89095321dc1b4b19a09745f228fea768c0aceced32b214355dd185
+Size: 1765
+MD5Sum: ca93b72d423c26339da832b9b6660e38
+SHA256sum: ca6bea7a0d3db19b2c4ffd7a44726fefadc1f19759f07dace62f35262606613d
 Description:  iface netfilter module
 
 Package: kmod-ipt-ipmark
@@ -9978,11 +9978,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1124
+Installed-Size: 1121
 Filename: kmod-ipt-ipmark_3.10.49+2.3-1_x86_64.ipk
-Size: 1776
-MD5Sum: e0db063af440a0450214f1340bbfd200
-SHA256sum: f8ecedcadfa50c6aca5110b48956a48dc8d9d961ebd648a8c998006ce4074e22
+Size: 1772
+MD5Sum: 5436351ecf98caed78a2e48f573c8d67
+SHA256sum: eef3e3acacfadf7dad20d1f9e33d0b67aa156fd6723c748f8ef9acf34d45464b
 Description:  IPMARK netfilter module
 
 Package: kmod-ipt-ipopt
@@ -10019,11 +10019,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 4671
+Installed-Size: 4669
 Filename: kmod-ipt-ipp2p_3.10.49+2.3-1_x86_64.ipk
-Size: 5283
-MD5Sum: 47952ce82e046d770da82b2fffb76ea6
-SHA256sum: 7f51b708eed3c67519b1d0c20ce3c4bc853bcf40b2428e75c93bf578ceb4719a
+Size: 5294
+MD5Sum: 2dd6a6c35c4fa95e88849837d83891b3
+SHA256sum: b8f3c97271eb3cbb28364e4fdba7e29fbb8c4428307bd2d04cd176aba19fe47e
 Description:  IPP2P netfilter module
 
 Package: kmod-ipt-iprange
@@ -10069,11 +10069,11 @@ Source: package/network/utils/ipset
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 84752
+Installed-Size: 79903
 Filename: kmod-ipt-ipset_3.10.49+6.20.1-1_x86_64.ipk
-Size: 85184
-MD5Sum: 7073ebc90427af345d7982c6c06f41a5
-SHA256sum: d6f28c2ff1caf6ad9e7299d21807d08bdf274f31d1b62dc69e7e8136cdbeb35b
+Size: 80409
+MD5Sum: 652b60fe0bc4519a1c2724b94cda62b3
+SHA256sum: 4fd621e8d5dc89fae41094a3055aa3a53657840f4891ef8234605ba1c1512e04
 Description:  IPset netfilter modules
 
 Package: kmod-ipt-ipv4options
@@ -10083,11 +10083,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 989
+Installed-Size: 990
 Filename: kmod-ipt-ipv4options_3.10.49+2.3-1_x86_64.ipk
-Size: 1623
-MD5Sum: 99ca843309c649caca992554e0a644fd
-SHA256sum: 29af6c632936f1947db7d51894406bd877f8502a5ffbf755f870c0154b0e6319
+Size: 1627
+MD5Sum: 702e8aaed67152613590be6b396b81c6
+SHA256sum: 086d924e3836a74ca377c30cfd8f129f94105074d2b46b04fcbf6a43921f67de
 Description:  ipv4options netfilter module
 
 Package: kmod-ipt-led
@@ -10112,11 +10112,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2000
+Installed-Size: 2003
 Filename: kmod-ipt-length2_3.10.49+2.3-1_x86_64.ipk
-Size: 2616
-MD5Sum: d86397c09896b77ad4f41dea6120d60a
-SHA256sum: 78e97626200c06af0f8bd23f5cca0da930725e3cac3288bc00f15076cdb7acdc
+Size: 2615
+MD5Sum: 7c6eaca06c71ff03cf222336cfc68fd5
+SHA256sum: bec09e0a69483371ab2dbd65cdd6b42ba7d9b74afa82c146a794fb1c1c7d0ddc
 Description:  length2 netfilter module
 
 Package: kmod-ipt-logmark
@@ -10126,11 +10126,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1858
+Installed-Size: 1855
 Filename: kmod-ipt-logmark_3.10.49+2.3-1_x86_64.ipk
-Size: 2481
-MD5Sum: 41345f3f248473c1dc1a4f24109a855a
-SHA256sum: 0e835d20b16d32006ff69be67b0c0f5c770f6bb22b6a26d2e1a175237d52e800
+Size: 2477
+MD5Sum: a223390a1ff103dd344cb21cfaedd8cb
+SHA256sum: d4033b391b2924539d99016d02edf086cf95efaa669622361905fff39691ccc7
 Description:  LOGMARK netfilter module
 
 Package: kmod-ipt-lscan
@@ -10140,11 +10140,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2143
+Installed-Size: 2150
 Filename: kmod-ipt-lscan_3.10.49+2.3-1_x86_64.ipk
-Size: 2745
-MD5Sum: 63748c31b537e46726134cbdbeaf9824
-SHA256sum: 053e13b9e164a6d46c3b4e66a0d78834578c09675b4cdf8dc5d7f8994ec7966c
+Size: 2755
+MD5Sum: faf2876a4b1839b7efa981b1ab786f43
+SHA256sum: e91a8d80a2fa8784f27761d11d32e7ded10f5c6c7f9f21daabac5ade72d42c20
 Description:  lscan netfilter module
 
 Package: kmod-ipt-lua
@@ -10154,11 +10154,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 65473
+Installed-Size: 65369
 Filename: kmod-ipt-lua_3.10.49+2.3-1_x86_64.ipk
-Size: 65951
-MD5Sum: eb5b26e9f5f197f13b2580cba8977d01
-SHA256sum: 977141465c3844c917b9d3564456b2ef4dae307db29b7812dcbc60209b8f55ab
+Size: 65888
+MD5Sum: 2a7641c1aa3ce183b43a5b6293c548cf
+SHA256sum: 514ea169bb077c81afad032dd065af86f2be5168c94315893e1de41af0d79ec9
 Description:  Lua PacketScript netfilter module
 
 Package: kmod-ipt-nat-extra
@@ -10242,11 +10242,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 6237
+Installed-Size: 6206
 Filename: kmod-ipt-nathelper-rtsp_3.10.49+2.3-1_x86_64.ipk
-Size: 6882
-MD5Sum: 60f67813774ec639982ef1a31d4b8671
-SHA256sum: 9e50901ad1335a991163a275999a3ea57cf2c27be00639d6062428b3f95378e2
+Size: 6852
+MD5Sum: a0a6d0eb61cfd7b0582db6cb90acb633
+SHA256sum: 3540cd59efd5fd4c53dfe50db84f7ec8344caaf37e312698ff38f74b57dfb7d4
 Description:  RTSP Conntrack and NAT netfilter module
 
 Package: kmod-ipt-nathelper
@@ -10309,11 +10309,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2796
+Installed-Size: 2804
 Filename: kmod-ipt-psd_3.10.49+2.3-1_x86_64.ipk
-Size: 3405
-MD5Sum: 364f482a8845b00b5058e0be8878e4b2
-SHA256sum: 2f0e47c75a24c0950105b125d052556ce6c08884ca1724853e68cf6364f779da
+Size: 3416
+MD5Sum: dccf0c1056d35601b3cbb4998c91e513
+SHA256sum: 642ffa3de5951f28a5714063ec608a3c0c84a2972190ac33b909d32fdff7d124
 Description:  psd netfilter module
 
 Package: kmod-ipt-queue
@@ -10340,11 +10340,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2671
+Installed-Size: 2670
 Filename: kmod-ipt-quota2_3.10.49+2.3-1_x86_64.ipk
-Size: 3281
-MD5Sum: d20b2dac314b88338eed31ee6eeff20c
-SHA256sum: f44c5604aa9df8c42f7dfea50187149ecabd96dcc382a8dbeeb771015e3c4354
+Size: 3284
+MD5Sum: b0cbdb161f85850ac67589cd8ef98d66
+SHA256sum: dcda52d24fbe96b043549ee88772c39eceb3ae84b6e548dd85fc3001af33504e
 Description:  quota2 netfilter module
 
 Package: kmod-ipt-rawnat
@@ -10354,11 +10354,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2331
+Installed-Size: 2332
 Filename: kmod-ipt-rawnat_3.10.49+2.3-1_x86_64.ipk
-Size: 2950
-MD5Sum: 3a11d9886ee0239753b8b310549213bb
-SHA256sum: 2e99f3c514285b6d131a1ccb9a25d0fb610de0f9f1756b59a629b0a7dcf0e992
+Size: 2951
+MD5Sum: 4b9a3330443acca65ce3fabdf5cbfbfd
+SHA256sum: 8dca8dbec809647b2633550327877a5f5245b57e6ebd74a3c61d066ff88f1a50
 Description:  RAWNAT netfilter module
 
 Package: kmod-ipt-rawpost
@@ -10368,11 +10368,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1377
+Installed-Size: 1385
 Filename: kmod-ipt-rawpost_3.10.49+2.3-1_x86_64.ipk
-Size: 2011
-MD5Sum: a5e1e31f92d5297725346b399cb8aa1d
-SHA256sum: 3bf55418f1a88b12ff08868ea26ba8463f3a91e035fb89fb06e6ad242602714b
+Size: 2023
+MD5Sum: 9904ec85cb36975fa2091245619140f9
+SHA256sum: d7815bead1e536f40fd02377771f3b8736ee2468e99592385cc1992af603537d
 Description:  RAWPOST netfilter module
 
 Package: kmod-ipt-steal
@@ -10382,11 +10382,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 890
+Installed-Size: 889
 Filename: kmod-ipt-steal_3.10.49+2.3-1_x86_64.ipk
-Size: 1536
-MD5Sum: 24d4d2c4d4eef70159f2882d0f06b926
-SHA256sum: 7a816e678a68163e2f6064a54ece5728faac8f12890a92016b9b28766f5ef4b7
+Size: 1532
+MD5Sum: baf3fd8af6cb19100ab35a9fad524b5d
+SHA256sum: 640b8aa0b952094fa496fc93710a53b4abaff68b56711f941e3f5e4173292520
 Description:  STEAL netfilter module
 
 Package: kmod-ipt-sysrq
@@ -10396,11 +10396,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3503
+Installed-Size: 3498
 Filename: kmod-ipt-sysrq_3.10.49+2.3-1_x86_64.ipk
-Size: 4132
-MD5Sum: 173511c627491ce5113b7ff6fe3f2f5e
-SHA256sum: 69ef791646165c524d95afec4f960ad3398d8f1865d6db0d53d7a1541bdf8fef
+Size: 4123
+MD5Sum: 1930cfaabeb43a2b042f8b6d9d6d1126
+SHA256sum: 742ebb17286f77aa67b6300f050818d9e4d420101db8f7192687bfe2cdcc0159
 Description:  SYSRQ netfilter module
 
 Package: kmod-ipt-tarpit
@@ -10410,11 +10410,11 @@ Source: package/network/utils/xtables-addons
 Section: kernel
 Maintainer: Jo-Philipp Wich <jow@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3453
+Installed-Size: 3454
 Filename: kmod-ipt-tarpit_3.10.49+2.3-1_x86_64.ipk
-Size: 4076
-MD5Sum: 2db448b9efb3af45ad031a8e70fc00dd
-SHA256sum: 9357484b4538b76f739e0055b6bc7d79f88a8ddc26e4cb021ade0c49a3db309f
+Size: 4083
+MD5Sum: f3ae7b585ca983dedb6ca8534f127ce8
+SHA256sum: 8f882a01a2702d02c43fb59410080d2a3e0f4bbe5ff33465a2680bc3082dc7a9
 Description:  TARPIT netfilter module
 
 Package: kmod-ipt-tee
@@ -10546,11 +10546,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 25150
+Installed-Size: 25070
 Filename: kmod-iwl-legacy_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 25704
-MD5Sum: 1f8b5ec84230d9e8fd56606f8131ba29
-SHA256sum: b2dbc7b631f090e8d0848f816dd9f5691570513b20a268814dadde3eeb608bc3
+Size: 25621
+MD5Sum: 2012e15cf5a384b0af61b2f5b5c01290
+SHA256sum: 175776cc241257047654339b89aa3c3d1f82daa712aa64745af2e8b11adf4c14
 Description:  iwl-legacy kernel module for legacy Intel wireless support
 
 Package: kmod-iwl3945
@@ -10560,11 +10560,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 95360
+Installed-Size: 95437
 Filename: kmod-iwl3945_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 95858
-MD5Sum: 8b954d58c9ea87c5a0a188a365288fd1
-SHA256sum: f4c0cba76ed4ce9d2e08ee7b308605a767f00d25d70006af33f378722f4e0fc6
+Size: 95929
+MD5Sum: 9de7221363083dda6f6d92ca614b5a71
+SHA256sum: f0928dc5907fb0dca1545c8e58be8ade29a5d4514f616d6dcdf822189beda1ae
 Description:  iwl3945 kernel module for Intel 3945 support
 
 Package: kmod-iwl4965
@@ -10574,11 +10574,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 129425
+Installed-Size: 129421
 Filename: kmod-iwl4965_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 129782
-MD5Sum: e763218d27d25092290892bd0d3d824e
-SHA256sum: aba736d3e6b180ca568ad6b86e9fd3477d7193a61c43e5f46d1fd54895d6b283
+Size: 129797
+MD5Sum: 0573907457898e8eea3ba99fdac0afa2
+SHA256sum: 58ee71cc8be6bf485af6da330ec037b9de32d36d1fbc87bc20fb35ecf1596016
 Description:  iwl4965 kernel module for Intel 4965 support
 
 Package: kmod-iwlagn
@@ -10588,11 +10588,11 @@ Source: package/kernel/mac80211
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 4283728
+Installed-Size: 4283036
 Filename: kmod-iwlagn_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 4278164
-MD5Sum: bee65981629fb9bcffed7b3cbd305ad2
-SHA256sum: 78808ebf90bf2c1eb20b79841fefb614b7ad4bcfbb0a52c059ea4cc55002a623
+Size: 4277615
+MD5Sum: 580bd0f21d7c8efc4d257e560ca1a0e5
+SHA256sum: 2418deff99c6e7d9be12714d44e9726a5e8a9e48affdec65e83f6c9f5a9b0ef0
 Description:  iwlagn kernel module for Intel 5000/5150/1000/6000/6050/6005/6030/100 support
 
 Package: kmod-l2tp-eth
@@ -11016,9 +11016,9 @@ Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
 Installed-Size: 191004
 Filename: kmod-mac80211_3.10.49+2014-05-22-1_x86_64.ipk
-Size: 190476
-MD5Sum: 7a9dad302e191a81a7f5a3166421ba0a
-SHA256sum: d9b81949515c4ac3002460faf7323162dc61d9ee9f34147397d7200089a4b2d7
+Size: 190471
+MD5Sum: 16375c45bf18b02da4ecc55501cd48ee
+SHA256sum: 1fda70f8eede50a02d12eb8bccaa9724980e510af4de696cc057b1f88b99d2f6
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-macvlan
@@ -11254,11 +11254,11 @@ Source: feeds/routing/nat46
 Section: kernel
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: x86_64
-Installed-Size: 13475
+Installed-Size: 13529
 Filename: kmod-nat46_3.10.49+1-1_x86_64.ipk
-Size: 14180
-MD5Sum: 09dd6959f2552fe6598f1e7655ceae38
-SHA256sum: 22f94197d870a8763d0045b451770b260d37aa0fd6eec808e2590138846df765
+Size: 14236
+MD5Sum: e5c0d5310c55dfb0a7ea6630bd5b1629
+SHA256sum: 166b028e94b04b32bccf4cc2848b52386d72b8e325a6bce8a3fc5b99cc7e3cff
 Description:  Stateless NAT46 translation kernel module
 
 Package: kmod-natsemi
@@ -11874,11 +11874,11 @@ Depends: kernel (=3.10.49-1-78f244d64c8ecfee73c0b0e9ba8ce516)
 Source: feeds/oldpackages/net/siit
 Section: kernel
 Architecture: x86_64
-Installed-Size: 5118
+Installed-Size: 5120
 Filename: kmod-siit_3.10.49+1.1-2_x86_64.ipk
 Size: 5805
-MD5Sum: bb9bc1f640cfcfadc7991407b213ec98
-SHA256sum: e998307032a9aa00a5181816ea2cf7c26048dee852ca5493c51f7eb2363994fe
+MD5Sum: 6af193eaa1d93f1150618e686df6aa79
+SHA256sum: 2af8df24d6d769b61c32142ef4482c6b898520c94bdb9e90130c1967f8b1a134
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: kmod-sis900
@@ -12122,9 +12122,9 @@ Section: kernel
 Architecture: x86_64
 Installed-Size: 2184
 Filename: kmod-spi-ks8995_3.10.49-1_x86_64.ipk
-Size: 2848
-MD5Sum: 3ce04c3eaa22374bd017ecb3e2ae7ece
-SHA256sum: e36939a8a763b4d6c480af67e5d93697de8377d6c59a0cca55ca09b4378d2bc6
+Size: 2851
+MD5Sum: b3dd30effe7c0ec55230696a7d5bf1f7
+SHA256sum: badaabe3d6034dafa0882ecf48761c582006cbe1bb0eedc01f7896ec707e2635
 Description:  Kernel module for Micrel/Kendin KS8995 ethernet switch
 
 Package: kmod-ssb
@@ -12178,11 +12178,11 @@ Depends: kernel (=3.10.49-1-78f244d64c8ecfee73c0b0e9ba8ce516)
 Source: package/kernel/trelay
 Section: kernel
 Architecture: x86_64
-Installed-Size: 2740
+Installed-Size: 2762
 Filename: kmod-trelay_3.10.49+0.1-1_x86_64.ipk
-Size: 3581
-MD5Sum: 02869be79060ca8dfe57d7e22397e8c7
-SHA256sum: 1fed6a7c664602dfaf4b506f8e99eb87b4211cca3b608d6a2b7d3294b6e3b0d7
+Size: 3601
+MD5Sum: bf898a40e8279048400812f1c65f0fb0
+SHA256sum: 3a5b3197bcdc2ab3fe146f508df2ee67ac0c06dca80f4ce4983ad8a44c8b6f35
 Description:  trelay relays ethernet packets between two devices (similar to a bridge), but
  without any MAC address checks. This makes it possible to bridge client mode
  or ad-hoc mode wifi devices to ethernet VLANs, assuming the remote end uses
@@ -13162,11 +13162,11 @@ Source: feeds/oldpackages/net/wprobe
 Section: kernel
 Maintainer: Felix Fietkau <nbd@openwrt.org>
 Architecture: x86_64
-Installed-Size: 7305
+Installed-Size: 7302
 Filename: kmod-wprobe_3.10.49+1-2_x86_64.ipk
-Size: 8069
-MD5Sum: f90f1da6312e9ad87ba8292cdf5d38f8
-SHA256sum: 4a3159fd8d35a932bd483e2b079bf453c691e82ad11503d8ce21f74f35701d60
+Size: 8066
+MD5Sum: 46ffcc3d0402c80f558e5c94c4d7d498
+SHA256sum: f0028dbea0fe93aabfe6da88a9a75f62ad7038d085eb3a653094ac83976ac3fc
 Description:  A module that exports measurement data from wireless driver to user space
 
 Package: krb5-client
@@ -13176,11 +13176,11 @@ Source: feeds/x86_64/net/krb5
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: x86_64
-Installed-Size: 49037
+Installed-Size: 48794
 Filename: krb5-client_1.12.1-1_x86_64.ipk
-Size: 49389
-MD5Sum: 28cd8132d9764e83cc12b793fb98792a
-SHA256sum: 242e5a809eebf370796f2b0d298a7042b55d8bfc2592efba5e52c1012152d481
+Size: 49076
+MD5Sum: 4146ba31bd92d33be5e6f1dec08226dc
+SHA256sum: 5ba6163a7730e29612f1af8fe62304b90915000a4c43d210a82ab5fd39a2470d
 Description:  Kerberos 5 Client
 
 Package: krb5-libs
@@ -13190,11 +13190,11 @@ Source: feeds/x86_64/net/krb5
 Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: x86_64
-Installed-Size: 786519
+Installed-Size: 786329
 Filename: krb5-libs_1.12.1-1_x86_64.ipk
-Size: 772534
-MD5Sum: 5c5dc39b7748910548bbe113d0d957af
-SHA256sum: 48c9c2abff72129e70b93bc5d74f13885870e0b046424b37d79e02966979bb92
+Size: 773287
+MD5Sum: 7485e5964a4834c1c015f57151d9e867
+SHA256sum: 53da0a326e6f715cb500fadd7e2823c013f8598df7053930a9b78a1e4ec7bbe4
 Description:  Kerberos 5 Shared Libraries
 
 Package: l7-protocols
@@ -13892,11 +13892,11 @@ Depends: libc
 Source: feeds/x86_64/libs/libgeoip
 Section: libs
 Architecture: x86_64
-Installed-Size: 89475
+Installed-Size: 89414
 Filename: libgeoip_1.6.2-1_x86_64.ipk
-Size: 87978
-MD5Sum: 3a9248089212490fe28cee7dbc0b0dfc
-SHA256sum: da2206b9cda826ba7f0870bbbf6ef0c74a957ba444b67cf8ae5dddd658d5bb24
+Size: 88041
+MD5Sum: f65eb62a9e7b8395c244055f224ac7f3
+SHA256sum: 2e755e6e477f7ac50b07a8659e7c67ca573fc0f449375545b329157502874a6e
 Description:  GeoIP is a C library that enables the user to find geographical and network
  information of an IP address
 
@@ -14192,11 +14192,11 @@ Source: feeds/x86_64/utils/lxc
 Section: libs
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 165390
+Installed-Size: 165392
 Filename: liblxc_1.0.5-1_x86_64.ipk
-Size: 164651
-MD5Sum: 1f445e622e07b017a5065de554557065
-SHA256sum: d00e7dd15c143746377d2b95ef3a0a8a15a85f6e563e905ef98a5fac629a30f6
+Size: 164439
+MD5Sum: 263a791169bbe650ff206c9cead778a4
+SHA256sum: 8f7152cf4842426ccfa60b830b9db1965dd91c927c5b1637252f94ec65841bff
 Description:  LXC userspace library
 
 Package: liblzma
@@ -14609,6 +14609,27 @@ MD5Sum: 4611066163cefbd81734cf5a6a043108
 SHA256sum: 85150dd919dcb0da0b9efa03cbc6ae868277ec01916d5d066a24316d0622740c
 Description:  C library to generate ICMP echo requests.
 
+Package: libpam-google-authenticator
+Version: 1.0-1
+Depends: libc, libpam, libqrencode
+Source: feeds/oldpackages/libs/google-authenticator
+Section: libs
+Architecture: x86_64
+Installed-Size: 20161
+Filename: libpam-google-authenticator_1.0-1_x86_64.ipk
+Size: 20895
+MD5Sum: 1db0dc9e3c505c4dad30b8d68ecee3ec
+SHA256sum: 6f01bb385350cc621dd659a3cdc189685d4899ac88f1eddfc1a137a0a2428220
+Description:  The Google Authenticator project includes implementations of one-time
+ passcode generators for several mobile platforms, as well as a pluggable
+ authentication module (PAM). One-time passcodes are generated using open
+ standards developed by the Initiative for Open Authentication (OATH)
+ (which is unrelated to OAuth).
+ 
+ These implementations support the HMAC-Based One-time Password (HOTP)
+ algorithm specified in RFC 4226 and the Time-based One-time Password
+ (TOTP) algorithm specified in RFC 6238.
+
 Package: libpam
 Version: 1.1.8-4
 Depends: libc
@@ -14744,6 +14765,24 @@ Size: 33176
 MD5Sum: 9545da9fbd1bb39c15375b94ccb68d2a
 SHA256sum: 497d94567c5493f0501e765f15ebc4040b3efb77bb1fb5ebfd3e65dcd4f870f5
 Description:  POSIX thread library
+
+Package: libqrencode
+Version: 3.4.3-1
+Depends: libc
+Source: feeds/oldpackages/libs/qrencode
+Section: libs
+Architecture: x86_64
+Installed-Size: 21350
+Filename: libqrencode_3.4.3-1_x86_64.ipk
+Size: 21940
+MD5Sum: 197c46ddc8078563682969b5e38ebe50
+SHA256sum: 2dddf0e71e6a799d7a4173ee1ed79f8ec9321cda3eb6beb191cd9fc373bc45d8
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+ 
+ 
 
 Package: libre
 Version: 0.4.9-1
@@ -16446,11 +16485,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 4182
+Installed-Size: 4185
 Filename: lxc-attach_1.0.5-1_x86_64.ipk
 Size: 4768
-MD5Sum: d291c18a57734434975912c5ff3919f2
-SHA256sum: e5d445af3b06519732fef54644eaa4162d06bf4cf60dc19597bbaf28136f4aac
+MD5Sum: 0f3137b999137a0e9442ed679d6a2322
+SHA256sum: 4b55bc28d56d5dae238bec4643b0d14fa7b01bdd4b87bcbee86d1a7bc4e7ecb9
 Description:  Utility lxc-attach from the LXC userspace tools
 
 Package: lxc-autostart
@@ -16462,9 +16501,9 @@ Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
 Installed-Size: 4841
 Filename: lxc-autostart_1.0.5-1_x86_64.ipk
-Size: 5425
-MD5Sum: 8e9b50fa917e510842e5558fc8437ed0
-SHA256sum: 95430c2f6c86650448556d4d274b94c7450192da467144b84c5997fbb5b8cf9f
+Size: 5421
+MD5Sum: 7c03a184d8b97e0620dfaeb788423766
+SHA256sum: c16ec655acc223232988e126572532dca972f222a6f1e5ac2bc327f89de7fea0
 Description:  Utility lxc-autostart from the LXC userspace tools
 
 Package: lxc-cgroup
@@ -16474,11 +16513,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3100
+Installed-Size: 3101
 Filename: lxc-cgroup_1.0.5-1_x86_64.ipk
-Size: 3684
-MD5Sum: fb25cc8678b81865d6bd350d7856ced7
-SHA256sum: d395884cf2432af1bbb105b4e0da968fe08f77ae7d9d41047bfc9e422a42b744
+Size: 3679
+MD5Sum: 153097930f8bb8fd3ee964f2a3e19c2f
+SHA256sum: 882bff148e35cd4bfda0135e253d77d4000da8e0268cd658e70a380091e62eda
 Description:  Utility lxc-cgroup from the LXC userspace tools
 
 Package: lxc-checkconfig
@@ -16488,11 +16527,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1965
+Installed-Size: 1962
 Filename: lxc-checkconfig_1.0.5-1_x86_64.ipk
-Size: 2568
-MD5Sum: 7e42d424f9dd5b78e734ca2de8e78836
-SHA256sum: e26b3558a4d73250d81af4dba9c14a190e1221fd98e81d484e02b7c94536dece
+Size: 2567
+MD5Sum: 578db8f0ccef0f3b834747c832534601
+SHA256sum: 9d53536a0ee9028fc8223c5b6ddd2dfae2c7ebcdbb05ef95a7e49b8c4d6d2be4
 Description:  Utility lxc-checkconfig from the LXC userspace tools
 
 Package: lxc-clone
@@ -16502,11 +16541,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3569
+Installed-Size: 3568
 Filename: lxc-clone_1.0.5-1_x86_64.ipk
-Size: 4134
-MD5Sum: 59931e8e1242f998a4b2556465d5127b
-SHA256sum: 9f47f9fb79f9114c9bbab1caea2d4db053ec7dfb3e6c07a0436a2b95314f0568
+Size: 4137
+MD5Sum: 9bee68591fd4d59801eac61136d1c5ea
+SHA256sum: 73f019a32660afdf971179c9bf20def54a90bd85841d028ba7895a68ce2434e3
 Description:  Utility lxc-clone from the LXC userspace tools
 
 Package: lxc-common
@@ -16516,11 +16555,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1191
+Installed-Size: 1195
 Filename: lxc-common_1.0.5-1_x86_64.ipk
-Size: 1787
-MD5Sum: a15758b08c2ac984a35a735f49ad6860
-SHA256sum: bd425cc236e8045410dea8be7482b502f33f34438640b306ca8e9de6f2ed3fe0
+Size: 1791
+MD5Sum: 5ec9c1aebb5501e209a5eb638648fa48
+SHA256sum: 46c720be3de344bd16933ba16a4cd7a34c0a4900163e7ca44383ede607a7aabf
 Description:  LXC common files
 
 Package: lxc-config
@@ -16530,11 +16569,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1934
+Installed-Size: 1930
 Filename: lxc-config_1.0.5-1_x86_64.ipk
-Size: 2533
-MD5Sum: 270e68e7fdf115152c9e00476b902337
-SHA256sum: 68c91d50f1bbaf64b63bc9c40dc82e1fd49e70336a16af8883488750724d759a
+Size: 2526
+MD5Sum: 9d1ee92ef843f04a341409773d0eb317
+SHA256sum: bb61521794f126f4dcfe03d966a4516972d664cd280d3b3750cdcdfffb048665
 Description:  Utility lxc-config from the LXC userspace tools
 
 Package: lxc-console
@@ -16544,11 +16583,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2537
+Installed-Size: 2533
 Filename: lxc-console_1.0.5-1_x86_64.ipk
-Size: 3153
-MD5Sum: 066b4626b687f99d433febc056615397
-SHA256sum: f997b89c661d0d327258b541240df8e85a7280f0a10f1689b5f9d5836479e3a9
+Size: 3140
+MD5Sum: 4a0890d625a00d646e4cd0c6b29c6e79
+SHA256sum: 18c00ad7315975e466bd3c42f85c09c4b0025ae473299109e44b080df311eecd
 Description:  Utility lxc-console from the LXC userspace tools
 
 Package: lxc-create
@@ -16560,9 +16599,9 @@ Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
 Installed-Size: 4918
 Filename: lxc-create_1.0.5-1_x86_64.ipk
-Size: 5507
-MD5Sum: 461be2b0e814f607ee921d9bc1a190a8
-SHA256sum: 74dd80d015fbd53b2f70860a4f3f97c7653ad614382df3e176961003e4f2aeaf
+Size: 5506
+MD5Sum: 23835d0243d283538ef77c86e90cdd64
+SHA256sum: 0c0d7b1082bba059ef80142d76012bbedca5d3fc91a3715b893b24bb8ddd0947
 Description:  Utility lxc-create from the LXC userspace tools
 
 Package: lxc-destroy
@@ -16572,11 +16611,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2435
+Installed-Size: 2436
 Filename: lxc-destroy_1.0.5-1_x86_64.ipk
-Size: 3041
-MD5Sum: fbe65cb067ecb9f54e3455fff0609afa
-SHA256sum: 3cb1778cd32ed69333b3cd99a301bc0be201582f2877734f2fe32d2c9eaef9a8
+Size: 3044
+MD5Sum: 0b8f07bcd6a8e6742f1c1d695460312f
+SHA256sum: f882fdb4fdcf7f6c1a1cddb13d2a35f8d47a406b6ddab49e87c115345da7a4bc
 Description:  Utility lxc-destroy from the LXC userspace tools
 
 Package: lxc-execute
@@ -16586,11 +16625,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3363
+Installed-Size: 3361
 Filename: lxc-execute_1.0.5-1_x86_64.ipk
-Size: 3936
-MD5Sum: ca34e1ea9a3d8ff8ee758efb2fd59994
-SHA256sum: e4e45a471bab871e081b20041c60b1b64efff4d1bd92012c3704f2f7a08b47f4
+Size: 3932
+MD5Sum: 0d89bfcad60ea4e99a46260334aeaf9c
+SHA256sum: 72b33c24d5cb1ef20ddc58601e519c5d3359b4e22ab445412bba40b46368d871
 Description:  Utility lxc-execute from the LXC userspace tools
 
 Package: lxc-freeze
@@ -16600,11 +16639,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2647
+Installed-Size: 2642
 Filename: lxc-freeze_1.0.5-1_x86_64.ipk
-Size: 3262
-MD5Sum: aea06de2d6f381f02650dfe491706c98
-SHA256sum: ce463d69fd54b3e039859d2f22e73fcf073b906f0a2f6935d543744d0d22a8bc
+Size: 3253
+MD5Sum: 160599e576a1ca271ca2c1501b64d998
+SHA256sum: ae7191e397232a910bef142b1a4440fcb221f27670e9e3051e89eeda98d2353a
 Description:  Utility lxc-freeze from the LXC userspace tools
 
 Package: lxc-hooks
@@ -16614,11 +16653,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2059
+Installed-Size: 2057
 Filename: lxc-hooks_1.0.5-1_x86_64.ipk
-Size: 2631
-MD5Sum: db669e174e03eda67fbf438c08f8e734
-SHA256sum: a44a32aa73a585a86d0e09552af26ac20868dc3ab05d174ba2e0114125d72eea
+Size: 2635
+MD5Sum: dcfb89b51bb78d7a072bd21c98b92c0f
+SHA256sum: df7ee01c3d8d7854bc7a66c93001e2e4a98f3444d1847d7830b0d50dbcf3317a
 Description:  LXC virtual machine hooks
 
 Package: lxc-info
@@ -16628,11 +16667,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 4888
+Installed-Size: 4889
 Filename: lxc-info_1.0.5-1_x86_64.ipk
 Size: 5471
-MD5Sum: c6ad3c3a825ddd306f20ff3cf76e804b
-SHA256sum: 4e15485543acd663e22d3479cdf63193dcc60034413b73256844e303a105a3c3
+MD5Sum: 2fdd779cd400abafcbad9e307a46f5b7
+SHA256sum: 82930dcd4f078fe922bb106df87674f74379e668fc861094295cd99bde43aad0
 Description:  Utility lxc-info from the LXC userspace tools
 
 Package: lxc-ls
@@ -16642,11 +16681,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 1530
+Installed-Size: 1529
 Filename: lxc-ls_1.0.5-1_x86_64.ipk
-Size: 2115
-MD5Sum: faa7683353c435800be737007ac8ba39
-SHA256sum: e46dcdd71c936ff6a8ad833b6b22ad730eb70b0ba9f932b6ccacdae777ec7a8d
+Size: 2109
+MD5Sum: f52c91cefc5f2d502c14eca7efdcc932
+SHA256sum: eebe0648f80088483caac87f71ab6ea1f770c96ea2af9109749b6fccd9e1034c
 Description:  Utility lxc-ls from the LXC userspace tools
 
 Package: lxc-lua
@@ -16656,11 +16695,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 8209
+Installed-Size: 8155
 Filename: lxc-lua_1.0.5-1_x86_64.ipk
-Size: 8806
-MD5Sum: df13d5c190bb96aa1be85d2debce885f
-SHA256sum: 73c74f8593a798d9efdc044c192d09ce82dddac1e738978af5c7b8f3f2368625
+Size: 8754
+MD5Sum: dffb9e382df5b1df1132f6888e3098c1
+SHA256sum: 5a4d4b9c5d7b4b40cddcb879f74812b3d9fb714be1b4b7fb6714dc066bf3d49c
 Description:  LXC Lua bindings
 
 Package: lxc-monitor
@@ -16670,11 +16709,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3833
+Installed-Size: 3832
 Filename: lxc-monitor_1.0.5-1_x86_64.ipk
-Size: 4402
-MD5Sum: 28274e805b4220378ee499649f18f217
-SHA256sum: 74a3abb9e6d950c73c797a6ccd9b029721e84606fedf356b72c27a8749fa124c
+Size: 4398
+MD5Sum: 56c9b85a79f477813c5ec24742505a27
+SHA256sum: 7157f524ef18d10d7e87b142e2222781d2a3138c9436c288a78b350ba0135ecb
 Description:  Utility lxc-monitor from the LXC userspace tools
 
 Package: lxc-monitord
@@ -16684,11 +16723,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 5914
+Installed-Size: 5912
 Filename: lxc-monitord_1.0.5-1_x86_64.ipk
-Size: 6501
-MD5Sum: 6d2a1e912755cfcdd39b03783a5cedd5
-SHA256sum: 058e1c4be98d3ed8c205294a584531e01f7fc78aafc8ce35f4b871aa52fbb911
+Size: 6504
+MD5Sum: 82580bc7c16e412bd73b88d2f90638f7
+SHA256sum: 99dfe40c31c98e0046c72b999f1a515b2c470edd1936ab5fe02dc7ff3bc7500e
 Description:  Utility lxc-monitord from the LXC userspace tools
 
 Package: lxc-snapshot
@@ -16698,11 +16737,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3900
+Installed-Size: 3898
 Filename: lxc-snapshot_1.0.5-1_x86_64.ipk
-Size: 4480
-MD5Sum: 9bf96b8376aba900a14b741f7545872f
-SHA256sum: 4a501020f50568f61e27422ba0e2da75c9300f2f1a7c4b522f30d47a8c737294
+Size: 4477
+MD5Sum: a750c761b73803cc1721e3cb742c39fb
+SHA256sum: bb8445b41e58daa31779dc9afbadd85f435d515537fc1172ba577b0d0dfabba4
 Description:  Utility lxc-snapshot from the LXC userspace tools
 
 Package: lxc-start
@@ -16712,11 +16751,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 5234
+Installed-Size: 5231
 Filename: lxc-start_1.0.5-1_x86_64.ipk
-Size: 5814
-MD5Sum: 1a0531e1fbae83781b5dde0b89c4fd0f
-SHA256sum: 29268a3eab87248088687e1bbd580b56432de090d8eea6a00cec938a8cdb87cd
+Size: 5809
+MD5Sum: 78f090697f670f087a652c18c95d6a26
+SHA256sum: ee4fdf8d54a9847e118368c0eeea035a25821eed253f08c44997e31e7895809f
 Description:  Utility lxc-start from the LXC userspace tools
 
 Package: lxc-stop
@@ -16726,11 +16765,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 3345
+Installed-Size: 3346
 Filename: lxc-stop_1.0.5-1_x86_64.ipk
-Size: 3930
-MD5Sum: 0304af9b2891d13e6e289733cb488dcf
-SHA256sum: 2b0e1a9f4072461f4f45c48adf4b0842cb9971e330e55f1ae9f7a2ad2e918e6d
+Size: 3923
+MD5Sum: 209c06f0422783345a28760d5f4c1f1a
+SHA256sum: 5e88677023b5c00664ae2fc6d99f1e2099127846fb3f66a14f730b2751d5a6e3
 Description:  Utility lxc-stop from the LXC userspace tools
 
 Package: lxc-templates
@@ -16740,11 +16779,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 79937
+Installed-Size: 77309
 Filename: lxc-templates_1.0.5-1_x86_64.ipk
-Size: 80634
-MD5Sum: ae0530cbcbef2f5995c40ebda4274170
-SHA256sum: 8df7fd9c6e6dcbfbb6c0d020fb8491bfee6fbfa087836846417f721e333d57f9
+Size: 77902
+MD5Sum: fc261872bbc7f33676242082ba68d923
+SHA256sum: d0a6e4b89cecbb7f64be394fdca1286e5ac193ba3c2dc66e19bb1005589cf5b4
 Description:  LXC virtual machine templates
 
 Package: lxc-unfreeze
@@ -16756,9 +16795,9 @@ Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
 Installed-Size: 2646
 Filename: lxc-unfreeze_1.0.5-1_x86_64.ipk
-Size: 3260
-MD5Sum: 285895310cbf6a838945979c320c2d3e
-SHA256sum: 2b4bf04f47a7b393f283f98a2024387075e65abf47087f73dcfc183b7635faa7
+Size: 3262
+MD5Sum: 52aee0c07dbccaa765fa7c897149644f
+SHA256sum: 75e7ebaae30c24a345a42643c0fb98d5f48070f240df9ee091b8fcfd780fff61
 Description:  Utility lxc-unfreeze from the LXC userspace tools
 
 Package: lxc-unshare
@@ -16768,11 +16807,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 4502
+Installed-Size: 4501
 Filename: lxc-unshare_1.0.5-1_x86_64.ipk
 Size: 5059
-MD5Sum: 9887676d1080550f550a96e048f0e86a
-SHA256sum: cddc0906c41bce2df92edb6a5e465df5288a8ccc373f174f36b0afc94c92d4d1
+MD5Sum: 332a65b4f1938a8999b1c7b5fb478db5
+SHA256sum: fb2b484406381823f407883fd55d2238f0bafa401752fdff643f12dd0396edd6
 Description:  Utility lxc-unshare from the LXC userspace tools
 
 Package: lxc-user-nic
@@ -16782,11 +16821,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 12700
+Installed-Size: 12698
 Filename: lxc-user-nic_1.0.5-1_x86_64.ipk
-Size: 13215
-MD5Sum: aff47850dd781147bcbcb3003790fda5
-SHA256sum: 607a66bcf1b9e8e0c80c619257b45d58c26f3c00b1e5c86d563c28cf9c9125c6
+Size: 13213
+MD5Sum: 97e396382798d24f50d1966aad9d9ced
+SHA256sum: 93d01b26e2cbc1109c4c4f8004a2ff00208ec986da275b52c8a2ca0747d210cf
 Description:  Utility lxc-user-nic from the LXC userspace tools
 
 Package: lxc-usernsexec
@@ -16796,11 +16835,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 4622
+Installed-Size: 4621
 Filename: lxc-usernsexec_1.0.5-1_x86_64.ipk
-Size: 5195
-MD5Sum: 95553dda14c77c2d7c12a37e7744c98c
-SHA256sum: cfdfc076bf8b247173176dc982a6f9f0fa7519f6d43f6aed5f7f852c7c17bd2c
+Size: 5203
+MD5Sum: d07182d1ea2657d526a4241a44bb40b2
+SHA256sum: 824cd56735b9781abd810b8a82dd83b97b84228cba3dbddb50344909652f83f6
 Description:  Utility lxc-usernsexec from the LXC userspace tools
 
 Package: lxc-wait
@@ -16810,11 +16849,11 @@ Source: feeds/x86_64/utils/lxc
 Section: utils
 Maintainer: Luka Perkov <luka@openwrt.org>
 Architecture: x86_64
-Installed-Size: 2532
+Installed-Size: 2530
 Filename: lxc-wait_1.0.5-1_x86_64.ipk
-Size: 3136
-MD5Sum: f2127957a6971adea1a957b8ca2cd92d
-SHA256sum: bb80e7f16a9e1ac9af0baeb9b29dbbe84d1b68df5d586963b3741c82d1ce32f0
+Size: 3133
+MD5Sum: 8781557a2504bdff437630a5030cbf05
+SHA256sum: cd1397deefcb50eb747c21b78bbf0f1012b7858e5bf0ea63e435d9cb3c6aaf15
 Description:  Utility lxc-wait from the LXC userspace tools
 
 Package: lxc
@@ -16827,8 +16866,8 @@ Architecture: x86_64
 Installed-Size: 106
 Filename: lxc_1.0.5-1_x86_64.ipk
 Size: 710
-MD5Sum: 4fa1c57e5228ba2e065cd32d5f6fdcfc
-SHA256sum: 785925b53d40fdc8b9ddf34f88b45bf43b0f8df17c8532088a991944db95f40a
+MD5Sum: 655fad72e02bdb27ffefc7030819aad6
+SHA256sum: 83a8b74905fc90d2abc5685bee2f6c31885b8bf443ffa5567f5394f6190e12dc
 Description:  LXC is the userspace control package for Linux Containers, a lightweight
  virtual system mechanism sometimes described as "chroot on steroids".
 
@@ -17033,11 +17072,11 @@ Depends: libc, bash
 Source: feeds/x86_64/mail/msmtp
 Section: mail
 Architecture: x86_64
-Installed-Size: 8295
+Installed-Size: 8275
 Filename: msmtp-queue_1.4.32-1_x86_64.ipk
-Size: 9040
-MD5Sum: 489935fed4f9ca52f746555e2fc79ea0
-SHA256sum: dc17a809b33b6b6d6d3412b95d72328eb0cf43e9d29f80df1ed94c0f576df2f4
+Size: 9016
+MD5Sum: e5e5333cc622228630c8de61b10e72ef
+SHA256sum: 67f93a1547f328e73596fe6598d1a690c7e3a28dfac7b1121397f073dcadef20
 Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
  an SMTP server (for example at a free mail provider) which does the
  delivery. To use this program with your mail user agent (MUA), create
@@ -17051,11 +17090,11 @@ Depends: libc, libopenssl
 Source: feeds/x86_64/mail/msmtp
 Section: mail
 Architecture: x86_64
-Installed-Size: 47326
+Installed-Size: 47388
 Filename: msmtp_1.4.32-1_x86_64.ipk
-Size: 48119
-MD5Sum: cdd4042a8bf9e43db0181fd9e657169e
-SHA256sum: 0d88abaedbcc5c74b2a43ebda390d903e4593eb49524c6eadb0fc05607eda2a6
+Size: 48228
+MD5Sum: 5c1b0afae5c917d3178d5bbd5e86cac4
+SHA256sum: 11b2eea3f824e6fa2c82f22efc8734320d24804924f4bf1214b945282fee81cf
 Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
  an SMTP server (for example at a free mail provider) which does the
  delivery. To use this program with your mail user agent (MUA), create
@@ -17689,11 +17728,11 @@ Depends: libc, libxml2, libsqlite3, libpcap, libgeoip, libstdcpp, libjson-c, lib
 Source: feeds/x86_64/net/ntopng
 Section: net
 Architecture: x86_64
-Installed-Size: 30462279
+Installed-Size: 30460866
 Filename: ntopng_1.2.0-1_x86_64.ipk
-Size: 30421774
-MD5Sum: 2b04bf44e9efaa34e9d9e1a78107f352
-SHA256sum: 45255afb352fb883e363de463c4007877d4c1e79c6cb094f4dbbd58fdd284f37
+Size: 30420856
+MD5Sum: 1b230d85b13c2258dbd292c987084c78
+SHA256sum: babfeec36f7a9fc76e48ae27c3f08a3eb862e99c78ab633e4ae8b9b25d3ee68f
 Description:  ntopng is the next generation version of the original ntop, a network traffic
  probe that shows the network usage, similar to what the popular top Unix command
  does. ntopng is based on libpcap.
@@ -19519,11 +19558,11 @@ Depends: libc, libpthread
 Source: feeds/x86_64/net/redis
 Section: net
 Architecture: x86_64
-Installed-Size: 414243
+Installed-Size: 414913
 Filename: redis_2.8.13-1_x86_64.ipk
-Size: 414267
-MD5Sum: 480e71dddf161958f0b05b186202d0e5
-SHA256sum: 1c9b4b71ccd9172fe17f920f16d70de84329c34dd55932d5c396a1a3d67d1e86
+Size: 414944
+MD5Sum: 1340016af2870239492357dcbfa9f053
+SHA256sum: 76ba1626894b24357fd5db61c2015bbf6bba630786f2b7dc8b557a9884271f91
 Description:  Redis is an open source, BSD licensed, advanced key-value cache and store.
  It is often referred to as a data structure server since keys can contain
  strings, hashes, lists, sets, sorted sets, bitmaps and hyperloglogs.
@@ -22202,11 +22241,11 @@ Depends: libc, libncurses, libacl
 Source: feeds/x86_64/utils/vim
 Section: utils
 Architecture: x86_64
-Installed-Size: 932786
+Installed-Size: 932553
 Filename: vim-huge_7.3-1_x86_64.ipk
-Size: 932636
-MD5Sum: a6c94b805b8a4933c5c1b3fd301a1a57
-SHA256sum: ace4c7d860ca380eaee58a8f7b93cbd56eed5f0cf80a2a4084a5fb71ab76dcf0
+Size: 932262
+MD5Sum: 2b9137256e0e4b04a9e659e97adcf2bf
+SHA256sum: c2f3b974c7289bcdb641985afeb646711e8ff683c1cafac5f0f42f1e56a3fa54
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Huge build)
 
@@ -22216,11 +22255,11 @@ Depends: libc, libncurses, libacl
 Source: feeds/x86_64/utils/vim
 Section: utils
 Architecture: x86_64
-Installed-Size: 1529161
+Installed-Size: 1528651
 Filename: vim-runtime_7.3-1_x86_64.ipk
-Size: 1524103
-MD5Sum: 51ee99694e8da262ac1d2ec41f94afcd
-SHA256sum: 13c63974a2568f6a644c885ce01196e620baa8fb63caddb7b7b91f46db990506
+Size: 1524782
+MD5Sum: 92cde3f4479431eed58d4e6e5b372da7
+SHA256sum: 542c21040a124b8584f2a5b2d4a5339a6ff5800c861f77ac1bdfd87e1ca6e945
 Description:  Vim is an almost compatible version of the UNIX editor Vi.
  (Runtime files)
 
@@ -22522,11 +22561,11 @@ Depends: libc
 Source: feeds/x86_64/utils/vim
 Section: utils
 Architecture: x86_64
-Installed-Size: 6957
+Installed-Size: 6956
 Filename: xxd_7.3-1_x86_64.ipk
-Size: 7575
-MD5Sum: c9b7f69fccc46f741c43e152d41fe875
-SHA256sum: ec8c0d0d0457139986c273935f40f1d342772800c72e21bfa5f69e81840c7dc4
+Size: 7572
+MD5Sum: b6fe677150c13715ece298294f7eb341
+SHA256sum: f8e7b25559fd13a883b8dbda66074416b07f2e86c18c0528926749beb1f038a0
 Description:  xxd creates a hex dump of a given file or standard input, it can also convert
  a hex dump back to its original binary form.
 
