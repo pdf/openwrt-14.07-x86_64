@@ -8,7 +8,12 @@ resources than the standard targets.  It fully supports multiple processors, and
 all available system memory.
 
 The image is built to fit on a 4GB storage device with room for an optional swap
-partition.
+partition.  I would like to modify sysupgrade for this platform to allow optional
+restoration of any modifications to the partition table when I get some more time
+to work on this project.  As it stands, any sysupgrade will replace the partition
+table, however if you re-create any additional partitions at the same starting
+sector, you will not lose any data - so make sure to write down your partition
+layout before sysupgrade.
 
 Binary packages have not been built for the full package tree, with only those
 packages related to routing, or configurable via LuCI, available from the

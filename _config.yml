@@ -19,7 +19,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          42167-001
+version:          r43693-001
 
 github:
   repo:           https://github.com/pdf/openwrt-14.07-x86_64
